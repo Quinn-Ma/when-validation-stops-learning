@@ -2,7 +2,7 @@
 
 Qinzhen Ma, Ruihai Wu
 
-arXiv preprint, 2026
+NeurIPS 2026 Workshop on Continual Learning in the Era of Foundation Models and Embodied Agents (CL4FMAgents)
 
 **Project page:** https://when-validation-stops-learning.pages.dev · [arXiv:2609.10873](https://arxiv.org/abs/2609.10873) · [Paper PDF](assets/paper.pdf)
 
@@ -24,10 +24,10 @@ from this repository: no build command, output directory `/`.
 ## Citation
 
 ```bibtex
-@article{ma2026when,
+@inproceedings{ma2026when,
   title  = {When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents},
   author = {Qinzhen Ma and Ruihai Wu},
-  journal = {arXiv preprint arXiv:2609.10873},
+  booktitle = {NeurIPS 2026 Workshop on Continual Learning in the Era of Foundation Models and Embodied Agents},
   year   = {2026}
 }
 ```

@@ -11,6 +11,7 @@
 <meta name="citation_title" content="When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents">
 <meta name="citation_author" content="Qinzhen Ma"><meta name="citation_author" content="Ruihai Wu">
 <meta name="citation_publication_date" content="2026">
+<meta name="citation_conference_title" content="NeurIPS 2026 Workshop on Continual Learning in the Era of Foundation Models and Embodied Agents">
 <meta name="citation_pdf_url" content="assets/paper.pdf">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2300205B'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='Georgia'>Q</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,7 @@
 </head>
 <body>
 <header class="hero">
-  <p class="venue">arXiv preprint, 2026</p>
+  <p class="venue">NeurIPS 2026 Workshop on Continual Learning in the Era of Foundation Models and Embodied Agents (CL4FMAgents)</p>
   <h1>When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents</h1>
   <p class="authors"><span class="author">Qinzhen Ma<sup>1</sup></span><span class="author">Ruihai Wu<sup>2</sup></span></p>
   <p class="affs"><span><sup>1</sup>Rice University</span><span><sup>2</sup>UC Berkeley</span></p>
@@ -30,10 +31,10 @@
   <section><h2>Abstract</h2><p class="abstract">Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error control and retained learning opportunities at a stated interaction budget. We identify a concrete failure: a range-based confidence gate cannot certify unchanged old-task behavior within otherwise substantial budgets. A standard paired-binomial construction reduces this burden when outcome disagreements are rare. We also specify certified historical-reference promotion and a round-level missed-opportunity metric. In a constructed one-step pushing diagnostic with 32 seeds, fresh paired checks admit 31.6% of a common update stream at 2,000 episodes per stage, versus zero for the range-based gate; unconditional replay nevertheless learns better in closed-loop runs. A separate learned-dynamics stress test distinguishes model bias from feedback-selection error. The contribution is an admission-audit protocol with analytical and synthetic evidence; physical-robot and VLA validation remain open.</p></section>
   <section><h2>Results</h2><figure><img src="assets/fig1.png" alt="Figure 1" loading="lazy"><figcaption><b>Figure 1.</b> Evidence flow. Proposal and screening may reuse development feedback. Admission uses fresh environment pairs after commitment; all-candidate audit outcomes remain inaccessible to the learning loop.</figcaption></figure><figure><img src="assets/fig2.png" alt="Figure 2" loading="lazy"><figcaption><b>Figure 2.</b> Executed diagnostic simulations. (a) Identical candidate streams and references isolate the checking rule. (b) More proxy optimization can expose dynamics error; fresh proxy draws do not eliminate it. Bands are 95% bootstrap intervals over 32 seeds.</figcaption></figure></section>
   <section><h2>Paper</h2><div class="thumbs"><a href="assets/paper.pdf" target="_blank" rel="noopener"><img src="assets/page1.png" alt="Page 1" loading="lazy"></a><a href="assets/paper.pdf" target="_blank" rel="noopener"><img src="assets/page2.png" alt="Page 2" loading="lazy"></a><a href="assets/paper.pdf" target="_blank" rel="noopener"><img src="assets/page3.png" alt="Page 3" loading="lazy"></a><a href="assets/paper.pdf" target="_blank" rel="noopener"><img src="assets/page4.png" alt="Page 4" loading="lazy"></a></div><p class="muted"><a href="assets/paper.pdf" target="_blank" rel="noopener">Download PDF</a> (9 pages)</p></section>
-  <section id="bibtex"><h2>BibTeX</h2><div class="bib"><button class="copy" type="button">Copy</button><pre><code>@article{ma2026when,
+  <section id="bibtex"><h2>BibTeX</h2><div class="bib"><button class="copy" type="button">Copy</button><pre><code>@inproceedings{ma2026when,
   title  = {When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents},
   author = {Qinzhen Ma and Ruihai Wu},
-  journal = {arXiv preprint arXiv:2609.10873},
+  booktitle = {NeurIPS 2026 Workshop on Continual Learning in the Era of Foundation Models and Embodied Agents},
   year   = {2026}
 }</code></pre></div></section>
 </main>
